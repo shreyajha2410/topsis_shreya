@@ -1,34 +1,41 @@
-# topsis_shreya
-topsis
-# TOPSIS implementation 
-```
-Assignment for Predictive Analysis Course of TIET,Patiala
-Submitted by: Shreya Jha
-101903401 (COE 15)
+## topsis_shreya
+
+# TOPSIS
+
+Submitted By: **Shreya Jha - 101903401**.
+
+Type: **Package**.
+
+Title: **TOPSIS method for multiple-criteria decision making (MCDM)**.
+
+Version: **1.0.4**.
+
+Date: **2022-02-27**.
+
+Author: **Shreya Jha**.
+
+Maintainer: **Shreya Jha <shreyajha2418@gmail.com>**.
+
+Description: **Evaluation of alternatives based on multiple criteria using TOPSIS method.**.
+
+---
+
+## What is TOPSIS?
+
+**T**echnique for **O**rder **P**reference by **S**imilarity to **I**deal **S**olution
+(TOPSIS) originated in the 1980s as a multi-criteria decision making method.
+TOPSIS chooses the alternative of shortest Euclidean distance from the ideal solution,
+and greatest distance from the negative-ideal solution.
+
+<br>
+
+## How to install this package:
 
 ```
-Output is a dataframe with 3 columns
- - **Alternatives** 
- - **Score**
- - **Rank**
-
-## Installation
-`pip install topsis-101703382`
-
-
-## To use via command line
-`topsis-101703382-cli data.csv 25,25,25,25 -+++`
-
-First argument after run.py is filename with .csv extension. The .csv file is assumed to have a structure similar to one provided in topsis-101703382/data.csv
-
-That is, the .csv file should have a header with column names and first column should only list alternatives and not attribute values.
-
-## To use in .py script
+>> pip install topsis_shreya
 ```
-from topsis-101703382 import topsis
-"""
-decision_matrix is 2D numpy array, weights is a 1D array and impacts is a string of the form +-+-- 
-where + implies benefit and - implies cost
-"""
-output_dataframe = topsis(decision_matrix,weights,impacts)
-```
+
+
+
+
+
