@@ -8,7 +8,7 @@ Type: **Package**.
 
 Title: **TOPSIS method for multiple-criteria decision making (MCDM)**.
 
-Version: **1.0.4**.
+Version: **1.0.0**.
 
 Date: **2022-02-27**.
 
@@ -32,7 +32,7 @@ and greatest distance from the negative-ideal solution.
 ## How to install this package:
 
 ```
->> pip install topsis_shreya
+>> pip install Topsis-Shreya-101903401==1.0.0
 ```
 
 
